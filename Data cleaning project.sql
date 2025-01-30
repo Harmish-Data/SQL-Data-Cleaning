@@ -6,7 +6,7 @@ SELECT *
 FROM layoffs;
 
 -- 1. Remove Duplicates --
--- 2. Stadardize the Data --
+-- 2. Standardize the Data --
 -- 3. Null Values or blank values --
 -- 4. Remove Any Columns --
 
@@ -46,7 +46,7 @@ from duplicate_cte
 where row_num >1;
 
 
--- create table 
+-- create table --
 
 CREATE TABLE `layoffs_staging2` (
   `company` text,
